@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+}
+
+.container-fluid {
+    height: 100vh;
+    padding: 0;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+
+.one {
+    color: whitesmoke;
+    background: #0F4C75;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+
+.two {
+    color: beige;
+    background: #301B3F;
+    display: flexbox;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    background-color: white;
+    color: #151515;
+    flex-grow: 1;
+    border: 1px black solid;
+    justify-content: center;
+    align-items: center;
+}
+
+.three {
+    color: beige;
+    background: #151515;
+}
+
+.four {
+    color: beige;
+    background: #B4A5A5;
+}
+
+
