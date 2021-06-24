@@ -4,19 +4,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <!--  -->
+    <link href="favicon.png" rel="shortcut icon">
     <title>Hello, world!</title>
     <link href="styles/index.css" rel="stylesheet">
+
   </head>
   <body>
     <div class="container-fluid">
-        <section class="one">
-            <div class="text-center text">
-                Hello World!, I'm <span style="color: #ff0d49;">Raden Muhammad Hafizh Sumantri</span>
-                <br>
-                I'm a Developer, also i love Digital Art
+        <section id="one" class="position-relative">
+            <div id="canvas"></div>
+            <div class="col">
+                <div class="row-cols-1 text-center text display-6">
+                    Hello World!, I'm <span style="color: #ff4949;">Raden Muhammad Hafizh Sumantri</span><br>    
+                    I'm a Developer, and also I love Digital Art
+                </div>
+                <div class="row-cols-auto text-center mt-5">
+                    <span class="btn btn-outline-light">See what i can do</span>
+                </div>
+                
             </div>
+
         </section>
-        <section class="two">
+        <section id="two">
                 <span class="flex-grow-0 display-6 mt-4 text-decoration-underline">Related Project</span>
                 <div class="flex-fill mt-md-3 mb-md-2">
                     <div class="d-flex flex-row justify-content-between">
@@ -27,13 +41,15 @@
                     </div>
                 </div>
         </section>
-        <section class="three">
+        <section id="three">
             <h1>Page Three</h1>
         </section>
-        <section class="four">
+        <section id="four">
             <h1>Page Four</h1>
         </section>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.3.1/p5.min.js" integrity="sha512-gQVBYBvfC+uyor5Teonjr9nmY1bN+DlOCezkhzg4ShpC5q81ogvFsr5IV4xXAj6HEtG7M1Pb2JCha97tVFItYQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="scripts/canvas.js"></script>
   </body>
 </html>
