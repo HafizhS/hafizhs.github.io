@@ -27,8 +27,9 @@ section {
 
 .project {
     position: relative;
-    width: 250px;
-    height: 250px;
+    width: 400px;
+    height: 400px;
+    margin: 5px;
     background-color: white;
     color: #151515;
     /* display: flex; */
@@ -77,6 +78,7 @@ section {
 }
 
 .project-button {
+    left: 40%; top: 85%;
     visibility: hidden;
 }
 
