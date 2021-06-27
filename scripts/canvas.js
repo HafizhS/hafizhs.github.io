@@ -15,7 +15,7 @@ function setup() {
   // Calculate columns and rows
   columns = floor(width / w)+w;
   rows = floor(height / w)+2;
-  // Wacky way to make a 2D array is JS
+  // Wacky way to make a 2D array in JS
   board = new Array(columns);
   for (let i = 0; i < columns; i++) {
     board[i] = new Array(rows);
